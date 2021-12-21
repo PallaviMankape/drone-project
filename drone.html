@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="inputs">
+    X-Axis : <input type="text" id="input_id1" />
+    Y-Axis : <input type="text" id="input_id2" /> 
+    Direction : <input type="text" id="input_id3" />
+  </div>
+
+  <button id="place" onclick="place()">place</button>
+
+  <div id="container">
+   <div id="box">
+          <img id="droneImg" src="drone.jpg" width="100%" height="100%">
+    </div>
+  </div>
+
+  <button class="move" onclick="move(false)">move</button>
+  <button class="right" onclick="decideDirection('right')">right</button>
+  <button class="left" onclick="decideDirection('left')">left</button>
+  <button class="attack" onclick="move(true)">attack</button>
+  <button class="report" onclick="report()">report</button>
+  <h3 id="details">Click Report...!</h3>
+
+  <script src="drone.js"></script>
+</body>

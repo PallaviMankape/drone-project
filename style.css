@@ -1,0 +1,66 @@
+
+#container {
+  position: absolute;
+  background: rgb(207, 52, 207);
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top: 25%;
+}
+#box {
+  position: relative;
+  background: transparent;
+  width: 10%;
+  height: 10%;
+}
+.inputs {
+  position: relative;
+  left: 20%;
+  margin: 2% 5%;
+}
+#place {
+  position: relative;
+  left: 48%;
+}
+.report {
+  position: absolute;
+  left: 35%;
+  bottom: 2%;
+}
+.right {
+  position: absolute;
+  left: 80%;
+  bottom: 50%;
+}
+
+.left {
+  position: absolute;
+  right: 80%;
+  bottom: 50%;
+}
+.attack {
+  position: absolute;
+  left: 35%;
+  bottom: 10%;
+}
+
+.move {
+  position: absolute;
+  right: 35%;
+  bottom: 10%;
+}
+
+#details {
+  position: absolute;
+  right: 35%;
+  bottom: 1%;
+}
+#droneImg{
+        transform: rotate(-90deg);
+        transition: transform 5s;
+}
+button{
+  background-color: rebeccapurple;
+  color: white;
+  padding: 1% 2%;
+}
